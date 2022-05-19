@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .mi {
+          width: 400px;
+          height: 400px;
+          border: 1px solid black;
+        }
+        </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <title>Principios de javaScript para Frontend</title>
+</head>
+<body>
+    <h1>Principios de javaScript para Frontend </h1>
+    <h2> Cambia el color de fondo</h2>
+    <div>
+    
+        <button onclick="document.body.style.backgroundColor= 'green'">color verde</button>
+        <button onclick="document.body.style.backgroundColor= 'grey'">color grey</button>
+        <button onclick="document.body.style.backgroundColor= 'orange'">color Naranga</button>
+        <button onclick="document.body.style.backgroundColor= 'red'">color rojo</button>
+    </div>
+
+    <h2 > cambia la imagen con javaScript</h2>
+
+    <div class="mi" id="myDiv"></div>
+    <button type="button" onclick="myFunction()">Set the background image of div</button>
+    <button type="button" onclick="myFunct()">Set the background image of div</button>
+
+    
+    <script>
+    function myFunction() {
+      document.body.style.backgroundImage = "url('honey.png')";
+    }
+    
+    function myFunct() {
+      document.body.style.backgroundImage  = "url('APTUGO.png')";
+    }
+    </script>
+    
+    </body>
+    </html>
+</body>
+</html>
